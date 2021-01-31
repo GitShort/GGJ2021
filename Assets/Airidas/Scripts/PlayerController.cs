@@ -5,6 +5,8 @@ using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
+    [SerializeField] Dialog dialog;
+
     [SerializeField] int playerState;
 
     [SerializeField] float moveSpeed = 5f;
@@ -114,6 +116,7 @@ public class PlayerController : MonoBehaviour
             Debug.Log("SHAVED");
             GameManager.PlayerShaved = true;
             Destroy(_pickedUpObject);
+            DialogManager.Instance.ShowDialog(dialog, 0);
 
         }
         else if ((_isNearDirtyClothes && Input.GetKeyDown(KeyCode.E)) && GameManager.CurrentDay == 2 && !_isClothesPickedUp)
@@ -123,6 +126,7 @@ public class PlayerController : MonoBehaviour
             _isClothesPickedUp = true;
             dirtyClothes.SetActive(true);
             Destroy(_pickedUpObject);
+            DialogManager.Instance.ShowDialog(dialog, 1);
         }
         else if (_isNearWashingMachine && Input.GetKeyDown(KeyCode.E) && GameManager.CurrentDay == 2 && _isClothesPickedUp)
         {
@@ -204,13 +208,16 @@ public class PlayerController : MonoBehaviour
             GameManager.ResetDay();
         }
 
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            DialogManager.Instance.HideDialog();
+        }
 
-
-        //else if (_pickupAllowed && Input.GetKeyDown(KeyCode.E))
-        //{
-        //    Debug.Log("Picked up " + _pickedUpObject.name);
-        //    Pickup();
-        //}
+            //else if (_pickupAllowed && Input.GetKeyDown(KeyCode.E))
+            //{
+            //    Debug.Log("Picked up " + _pickedUpObject.name);
+            //    Pickup();
+            //}
 
 
 

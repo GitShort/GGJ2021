@@ -1957,6 +1957,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.40125668, y: 0.16403174}
   m_EdgeRadius: 0
+--- !u!114 &528324344 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 528324344, guid: 01d9884456447204bb1523f1efc88320, type: 3}
+  m_PrefabInstance: {fileID: 8362479123791985434}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &530928649
 GameObject:
   m_ObjectHideFlags: 0
@@ -3379,23 +3390,6 @@ Transform:
   m_Father: {fileID: 1405937057}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &806954461 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8362479122822453448, guid: 01d9884456447204bb1523f1efc88320, type: 3}
-  m_PrefabInstance: {fileID: 8362479123791985434}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &806954467
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 806954461}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80ce8161d6786ec459e44562c772f5d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &809194031
 GameObject:
   m_ObjectHideFlags: 0
@@ -4824,6 +4818,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 849322200}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &885773457 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 885773457, guid: 01d9884456447204bb1523f1efc88320, type: 3}
+  m_PrefabInstance: {fileID: 8362479123791985434}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &888575826
 GameObject:
   m_ObjectHideFlags: 0
@@ -9253,8 +9252,72 @@ PrefabInstance:
       propertyPath: _fadeoutEnding
       value: 
       objectReference: {fileID: 2140747587}
+    - target: {fileID: 4941241024172802041, guid: 26076763a19064f4f9656e0b586570b8, type: 3}
+      propertyPath: dialog.lines.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941241024172802041, guid: 26076763a19064f4f9656e0b586570b8, type: 3}
+      propertyPath: dialog.lines.Array.data[0]
+      value: Was that a mistake?
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941241024172802041, guid: 26076763a19064f4f9656e0b586570b8, type: 3}
+      propertyPath: dialog.lines.Array.data[1]
+      value: They stink badly
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941241024172802041, guid: 26076763a19064f4f9656e0b586570b8, type: 3}
+      propertyPath: dialog.lines.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941241024172802041, guid: 26076763a19064f4f9656e0b586570b8, type: 3}
+      propertyPath: dialog.lines.Array.data[3]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941241024172802041, guid: 26076763a19064f4f9656e0b586570b8, type: 3}
+      propertyPath: dialog.lines.Array.data[4]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941241024172802041, guid: 26076763a19064f4f9656e0b586570b8, type: 3}
+      propertyPath: dialog.lines.Array.data[5]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941241024172802041, guid: 26076763a19064f4f9656e0b586570b8, type: 3}
+      propertyPath: dialog.lines.Array.data[6]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941241024172802041, guid: 26076763a19064f4f9656e0b586570b8, type: 3}
+      propertyPath: dialog.lines.Array.data[7]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941241024172802041, guid: 26076763a19064f4f9656e0b586570b8, type: 3}
+      propertyPath: dialog.lines.Array.data[8]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941241024172802041, guid: 26076763a19064f4f9656e0b586570b8, type: 3}
+      propertyPath: dialog.lines.Array.data[9]
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26076763a19064f4f9656e0b586570b8, type: 3}
+--- !u!1 &4941241025426470453 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4941241024172802040, guid: 26076763a19064f4f9656e0b586570b8, type: 3}
+  m_PrefabInstance: {fileID: 4941241025426470452}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4941241025426470454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4941241025426470453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae96b774ebc44504aab821e68ea9467d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogBox: {fileID: 885773457}
+  dialogText: {fileID: 528324344}
+  lettersPerSecond: 30
 --- !u!1001 &5023832891877005265
 PrefabInstance:
   m_ObjectHideFlags: 0
