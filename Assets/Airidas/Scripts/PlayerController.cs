@@ -332,7 +332,7 @@ public class PlayerController : MonoBehaviour
         }
         else if (collision.gameObject.tag.Equals("Exit") && GameManager.TimeToLeave)
         {
-            _fadeoutEnding.Play("Fadeoutending", -1, 0);
+            _fadeoutEnding.Play("EXIT", -1, 0);
             moveSpeed = 0;
         }
 

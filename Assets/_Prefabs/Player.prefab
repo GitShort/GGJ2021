@@ -702,10 +702,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerState: 0
   moveSpeed: 2.5
+  clothesShop: {fileID: 0}
+  sportShop: {fileID: 0}
+  fridge: {fileID: 0}
   text: {fileID: 215036551}
   dirtyClothes: {fileID: 1078615721163105225}
   trashBag: {fileID: 3231009978195864832}
   _smokeAnimation: {fileID: 1112325467}
+  _fadeout: {fileID: 0}
+  _fadeoutEnding: {fileID: 0}
 --- !u!95 &554773280
 Animator:
   serializedVersion: 3
